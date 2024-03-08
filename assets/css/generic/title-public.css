@@ -1,0 +1,9 @@
+.title-public{
+    @apply xl:text-xl lg:text-lg text-md text-dark font-bold lg:mb-4 mb-2.5
+}
+.title-public-secondary{
+    @apply xl:text-2xl lg:text-xl text-lg text-dark font-medium
+}
+.title-public-medium{
+    @apply  lg:text-lg text-base font-extrabold mb-0
+}

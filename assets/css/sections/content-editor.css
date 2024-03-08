@@ -1,0 +1,52 @@
+.content-editor h1 ,
+.content-editor h2 ,
+.content-editor h3 ,
+.content-editor h4 ,
+.content-editor h5 ,
+.content-editor h6 {
+    @apply text-dark font-bold block mb-3
+}
+
+.content-editor h1 {
+    @apply text-[22px]
+}
+.content-editor h2 {
+    @apply text-[21px]
+}
+.content-editor h3 {
+    @apply text-[20px]
+}
+.content-editor h4 {
+    @apply text-[19px]
+}
+.content-editor h5 {
+    @apply text-[18px]
+}
+.content-editor h6 {
+    @apply text-[18px]
+}
+
+
+.content-editor p {
+    @apply lg:text-base text-sm text-darker text-justify leading-[1.8] mb-3
+}
+
+.content-editor blockquote {
+    @apply lg:p-5 p-4 rounded-lg bg-primary bg-opacity-10 text-primary lg:text-base text-sm mb-4
+}
+
+.content-editor img {
+    @apply max-w-full mb-4
+}
+.content-editor ul , .content-editor ol {
+    @apply mb-3 ps-3
+}
+.content-editor ol li {
+    list-style: auto !important;
+}
+.content-editor ul li {
+    list-style: disc !important;
+}
+.content-editor li {
+    @apply lg:text-base text-sm text-darker mb-1 last:mb-0
+}

@@ -1,0 +1,38 @@
+.btn-public{
+    @apply flex items-center lg:text-base text-sm justify-center rounded-lg overflow-hidden lg:px-8 px-4 transition-all lg:py-4 py-2.5 w-fit hover:bg-white hover:text-dark shrink-0
+}
+.btn-public:hover *{
+    @apply text-white
+}
+.btn-public *{
+    @apply transition-all
+}
+.btn-public-light{
+    @apply bg-natural-alpha text-dark hover:bg-primary hover:text-white
+}
+.btn-modern{
+    @apply !bg-gradient-danger text-white hover:text-white lg:py-4 py-3 border-b-4 !border-primary-dark !bg-[length:300%_100%];
+    transition: all .5s ease-in-out;
+}
+.btn-modern:hover{
+    @apply !bg-gradient-danger-hover;
+    transition: all .5s ease-in-out;
+}
+.btn-modern i{
+    @apply lg:ms-10 ms-6 lg:text-xl text-md;
+}
+.btn-link{
+    @apply flex items-center lg:text-md text-base text-dark w-fit font-medium hover:text-primary transition-all;
+}
+.btn-link i{
+    @apply text-primary ms-4 font-bold lg:text-lg text-md
+}
+.btn-secondary{
+    @apply bg-natural/10 text-white hover:bg-white hover:text-dark
+}
+.btn-secondary i{
+    @apply ms-12 text-xl
+}
+.btn-secondary:hover i{
+    @apply text-dark;
+}

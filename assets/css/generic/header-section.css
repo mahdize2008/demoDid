@@ -1,0 +1,18 @@
+.header-section{
+    @apply lg:mb-10 mb-6 items-center
+}
+.header-title-public{
+    @apply text-dark lg:text-9xl text-3xl font-bold mb-1
+}
+.header-title-public-white{
+    @apply text-white
+}
+.header-subtitle-public{
+    @apply text-natural-beta lg:text-lg text-2base
+}
+.header-subtitle-public-white{
+    @apply text-white/60
+}
+.header-section-link{
+    @apply btn-link sm:ms-auto lg:mb-10 mb-6 /* max-sm:mt-6 max-sm:order-last */
+}

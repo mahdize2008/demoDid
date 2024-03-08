@@ -1,0 +1,10 @@
+
+.swiper-paginations{
+    @apply flex items-center justify-center !w-full mx-auto lg:mt-10 mt-6 max-sm:order-3
+}
+.swiper-paginations .swiper-pagination-bullet{
+    @apply w-2.5 h-2.5 rounded-full !bg-dark !bg-opacity-100 !mx-3
+}
+.swiper-paginations .swiper-pagination-bullet-active{
+    @apply !bg-primary
+}

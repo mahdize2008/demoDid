@@ -1,0 +1,9 @@
+.text-public{
+    @apply lg:text-base text-sm text-darker text-justify leading-[1.8]
+}
+.text-public-small{
+    @apply text-sm leading-normal
+}
+.text-public-light{
+    @apply text-base text-light text-justify
+}

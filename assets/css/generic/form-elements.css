@@ -1,0 +1,9 @@
+.input , .textarea{
+    @apply w-full h-[68px] rounded-xl bg-white px-4 text-dark placeholder-opacity-100 placeholder-dark text-base font-medium outline-none focus:!shadow-lighter-hover transition-all
+}
+.textarea {
+    @apply h-60 bg-white p-4 placeholder-light
+}
+.input-secondary{
+    @apply h-[60px] bg-transparent border-light-alpha border-[3px] placeholder-darker text-natural
+}

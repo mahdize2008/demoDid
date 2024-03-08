@@ -1,0 +1,44 @@
+/* GENERIC */
+@import "generic/space-between.css";
+@import "generic/title-public.css";
+@import "generic/subtitle-public.css";
+@import "generic/text-public.css";
+@import "generic/header-section.css";
+@import "generic/pagination.css";
+@import "generic/btn.css";
+@import "generic/form-elements.css";
+@import "generic/backdrop.css";
+
+
+
+/* SECTIONS */
+@import "sections/about-us.css";
+@import "sections/content-editor.css";
+
+@import "generic/font.css";
+@import "generic/font-icon.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    html,
+    body {
+        @apply font-["iranYekan"] overflow-x-hidden text-right bg-white;
+        direction: rtl;
+    }
+
+    button {
+        @apply cursor-pointer
+    }
+}
+
+
+@layer components {
+    .text-align-last-center {
+        text-align-last: center;
+    }
+}

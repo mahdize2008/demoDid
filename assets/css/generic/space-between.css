@@ -1,0 +1,12 @@
+.py-between-section{
+    @apply lg:py-20 py-16
+}
+.pb-between-section{
+    @apply lg:pb-20 pb-16
+}
+.pt-between-section{
+    @apply lg:pt-20 pt-16
+}
+.mb-between-section{
+    @apply lg:mb-20 mb-16
+}
